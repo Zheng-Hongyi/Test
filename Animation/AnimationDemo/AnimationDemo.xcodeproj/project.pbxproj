@@ -14,6 +14,7 @@
 		192E613122891C09002C7A6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 192E612F22891C09002C7A6E /* LaunchScreen.storyboard */; };
 		192E6139228925EC002C7A6E /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192E6138228925EC002C7A6E /* RootViewController.swift */; };
 		192E613C22892729002C7A6E /* TransitionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192E613B22892729002C7A6E /* TransitionVC.swift */; };
+		192E613F22897383002C7A6E /* LayerBasicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192E613E22897383002C7A6E /* LayerBasicVC.swift */; };
 		CA55F67F78217B1A1E4DDB26 /* Pods_AnimationDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2A3D8883F0B3BD89A4A0039 /* Pods_AnimationDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		192E613222891C09002C7A6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		192E6138228925EC002C7A6E /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		192E613B22892729002C7A6E /* TransitionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionVC.swift; sourceTree = "<group>"; };
+		192E613E22897383002C7A6E /* LayerBasicVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerBasicVC.swift; sourceTree = "<group>"; };
 		542B26811CAF7766FBB2E0CC /* Pods-AnimationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnimationDemo/Pods-AnimationDemo.release.xcconfig"; sourceTree = "<group>"; };
 		B2A3D8883F0B3BD89A4A0039 /* Pods_AnimationDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimationDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBCB1FD8DE2576DD1CE8799E /* Pods-AnimationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnimationDemo/Pods-AnimationDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 		192E612522891C08002C7A6E /* AnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				192E613D2289735C002C7A6E /* LayerAni */,
 				192E613A2289270E002C7A6E /* UIkitAni */,
 				192E612622891C08002C7A6E /* AppDelegate.swift */,
 				192E612A22891C08002C7A6E /* Main.storyboard */,
@@ -83,6 +86,14 @@
 				192E613B22892729002C7A6E /* TransitionVC.swift */,
 			);
 			name = UIkitAni;
+			sourceTree = "<group>";
+		};
+		192E613D2289735C002C7A6E /* LayerAni */ = {
+			isa = PBXGroup;
+			children = (
+				192E613E22897383002C7A6E /* LayerBasicVC.swift */,
+			);
+			path = LayerAni;
 			sourceTree = "<group>";
 		};
 		8FA31225407DC49955B61AD2 /* Frameworks */ = {
@@ -223,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				192E612922891C08002C7A6E /* ViewController.swift in Sources */,
+				192E613F22897383002C7A6E /* LayerBasicVC.swift in Sources */,
 				192E613C22892729002C7A6E /* TransitionVC.swift in Sources */,
 				192E612722891C08002C7A6E /* AppDelegate.swift in Sources */,
 				192E6139228925EC002C7A6E /* RootViewController.swift in Sources */,
