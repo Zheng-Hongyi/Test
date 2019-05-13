@@ -59,11 +59,32 @@ class ViewController: UIViewController {
     }
 
     @IBAction func login(_ sender: Any) {
-        self.loginButtonCenter.constant += 6
-        UIView.animate(withDuration: 0.33, delay: 0.0, usingSpringWithDamping: 0.7, initialSpringVelocity: 0, options: [], animations: {
-            self.loginButton.backgroundColor = UIColor(red: 0.85, green: 0.83, blue: 0.45, alpha: 1.0)
-            self.view.layoutIfNeeded()
+//        self.loginButtonCenter.constant += 6
+//        UIView.animate(withDuration: 0.33, delay: 0.0, usingSpringWithDamping: 0.7, initialSpringVelocity: 0, options: [], animations: {
+//            self.loginButton.backgroundColor = UIColor(red: 0.85, green: 0.83, blue: 0.45, alpha: 1.0)
+//            self.view.layoutIfNeeded()
+//        }, completion: nil)
+        UIView.animateKeyframes(withDuration: 1, delay: 0.5, options: [], animations: {
+            UIView.addKeyframe(withRelativeStartTime: 0, relativeDuration: 0.25) {
+//                self.loginButton.backgroundColor = UIColor(red: 0.85, green: 0.83, blue: 0.45, alpha: 0)
+                self.loginButtonCenter.constant += 6
+                self.view.layoutIfNeeded()
+            }
+            UIView.addKeyframe(withRelativeStartTime: 0.25, relativeDuration: 0.25) {
+//                self.loginButton.backgroundColor = UIColor(red: 0.85, green: 0.83, blue: 0.45, alpha: 0.5)
+                self.loginButtonCenter.constant += 6
+                self.view.layoutIfNeeded()
+            }
+            UIView.addKeyframe(withRelativeStartTime: 0.5, relativeDuration: 0.5) {
+//                self.loginButton.backgroundColor = UIColor(red: 0.85, green: 0.83, blue: 0.45, alpha: 1)
+                self.loginButtonCenter.constant += 6
+                self.view.layoutIfNeeded()
+            }
+            UIView.addKeyframe(withRelativeStartTime: 0.5, relativeDuration: 0.5, animations: {
+                self.loginButton.transform = CGAffineTransform(rotationAngle: -.pi / 8)
+            })
         }, completion: nil)
+        
     }
 }
 
