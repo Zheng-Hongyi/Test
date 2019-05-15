@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		191107DB228BF1F9001D31B7 /* LayerShapeAndMaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191107DA228BF1F9001D31B7 /* LayerShapeAndMaskVC.swift */; };
+		191107DD228BF642001D31B7 /* GradientVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191107DC228BF642001D31B7 /* GradientVC.swift */; };
 		192E612722891C08002C7A6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192E612622891C08002C7A6E /* AppDelegate.swift */; };
 		192E612922891C08002C7A6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192E612822891C08002C7A6E /* ViewController.swift */; };
 		192E612C22891C08002C7A6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 192E612A22891C08002C7A6E /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		191107DA228BF1F9001D31B7 /* LayerShapeAndMaskVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerShapeAndMaskVC.swift; sourceTree = "<group>"; };
+		191107DC228BF642001D31B7 /* GradientVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientVC.swift; sourceTree = "<group>"; };
 		192E612322891C08002C7A6E /* AnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		192E612622891C08002C7A6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		192E612822891C08002C7A6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -92,6 +96,8 @@
 			isa = PBXGroup;
 			children = (
 				192E613E22897383002C7A6E /* LayerBasicVC.swift */,
+				191107DA228BF1F9001D31B7 /* LayerShapeAndMaskVC.swift */,
+				191107DC228BF642001D31B7 /* GradientVC.swift */,
 			);
 			path = LayerAni;
 			sourceTree = "<group>";
@@ -233,8 +239,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				191107DB228BF1F9001D31B7 /* LayerShapeAndMaskVC.swift in Sources */,
 				192E612922891C08002C7A6E /* ViewController.swift in Sources */,
 				192E613F22897383002C7A6E /* LayerBasicVC.swift in Sources */,
+				191107DD228BF642001D31B7 /* GradientVC.swift in Sources */,
 				192E613C22892729002C7A6E /* TransitionVC.swift in Sources */,
 				192E612722891C08002C7A6E /* AppDelegate.swift in Sources */,
 				192E6139228925EC002C7A6E /* RootViewController.swift in Sources */,

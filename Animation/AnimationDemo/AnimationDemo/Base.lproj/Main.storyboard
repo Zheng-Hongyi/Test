@@ -56,6 +56,22 @@
                                     <segue destination="RV3-UE-wT9" kind="show" id="cg9-2n-sol"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2yN-dR-0FW">
+                                <rect key="frame" x="98" y="225" width="99" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Shapes Masks"/>
+                                <connections>
+                                    <segue destination="fa0-nW-eXk" kind="show" id="dgL-QZ-5O8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oed-4F-0nH">
+                                <rect key="frame" x="219" y="225" width="59" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Gradient"/>
+                                <connections>
+                                    <segue destination="Qzf-e9-cVg" kind="show" id="zGw-oH-9FX"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="49S-Uw-0z8"/>
@@ -65,6 +81,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="emJ-MB-NrF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="397.10144927536237" y="138.61607142857142"/>
+        </scene>
+        <!--GradientVC-->
+        <scene sceneID="bpZ-Xz-OyF">
+            <objects>
+                <viewController id="Qzf-e9-cVg" customClass="GradientVC" customModule="AnimationDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IbK-Mt-80I">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="o53-LS-3gk"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hNh-Op-nLP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="890" y="-218"/>
         </scene>
         <!--Layer BasicVC-->
         <scene sceneID="vTm-6W-7G0">
@@ -80,6 +111,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uHe-ia-AGR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1093" y="135"/>
+        </scene>
+        <!--Layer Shape And MaskVC-->
+        <scene sceneID="F2s-Un-tMq">
+            <objects>
+                <viewController id="fa0-nW-eXk" customClass="LayerShapeAndMaskVC" customModule="AnimationDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="j1i-xV-pEQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="3xt-3c-83s"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aIX-lt-0RZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="930" y="638"/>
         </scene>
         <!--TransitionVC-->
         <scene sceneID="Lz4-ht-YwU">
